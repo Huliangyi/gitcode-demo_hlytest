@@ -274,11 +274,34 @@ __global__ void add_custom(float* x, float* y, float* z, uint64_t total_length)
     ./demo
     ```
 
+
+
+### 问题案例
+
     >[!NOTE]说明 
     >-   该样例仅支持如下型号：
     >>    -   Ascend 950PR/Ascend 950DT
     >-   --enable-simt用于指定SIMT编程场景。
     >-   _-_-npu-arch用于指定NPU的架构版本，dav-后为架构版本号，请替换为您实际使用的架构版本号。各AI处理器型号对应的架构版本号请通过[AI处理器型号和\_\_NPU\_ARCH\_\_的对应关系](../../../编程指南/语言扩展层/SIMD-BuiltIn关键字.md#table65291052154114)进行查询。
+    
+### 改1
+
+    >[!NOTE]说明 
+    >-   该样例仅支持如下型号：
+    >-   Ascend 950PR/Ascend 950DT
+    >-   --enable-simt用于指定SIMT编程场景。
+    >-   _-_-npu-arch用于指定NPU的架构版本，dav-后为架构版本号，请替换为您实际使用的架构版本号。各AI处理器型号对应的架构版本号请通过[AI处理器型号和\_\_NPU\_ARCH\_\_的对应关系](../../../编程指南/语言扩展层/SIMD-BuiltIn关键字.md#table65291052154114)进行查询。
+
+### 改2
+
+    >[!NOTE]说明 
+    >-   该样例仅支持如下型号：
+    >		-   Ascend 950PR/Ascend 950DT
+    >-   --enable-simt用于指定SIMT编程场景。
+    >-   _-_-npu-arch用于指定NPU的架构版本，dav-后为架构版本号，请替换为您实际使用的架构版本号。各AI处理器型号对应的架构版本号请通过[AI处理器型号和\_\_NPU\_ARCH\_\_的对应关系](../../../编程指南/语言扩展层/SIMD-BuiltIn关键字.md#table65291052154114)进行查询。
+
+
+   
 
 ## 接下来的引导<a name="section2099191619557"></a>
 
